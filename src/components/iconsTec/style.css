@@ -1,0 +1,17 @@
+.icon {
+  width: 115px;
+}
+
+.icon-container {
+  position: relative;
+  width: 115px;
+  height: 115px;
+  transition: transform 0.3s ease; /* Agrega una transición para un movimiento suave */
+}
+
+.icon-container:hover {
+  transform: translate(
+    -5px,
+    -5px
+  ); /* Ajusta las coordenadas según tu preferencia */
+}
