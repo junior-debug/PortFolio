@@ -1,8 +1,8 @@
 import { Show } from "../components/showProject/Show";
-import bulk from "../assets/bulkSales/bulk0.png";
-import bulk1 from "../assets/bulkSales/bulk1.png";
-import bulk2 from "../assets/bulkSales/bulk2.png";
-import bulk3 from "../assets/bulkSales/bulk3.png";
+import bulk from "../assets/bulksales/bulk0.png";
+import bulk1 from "../assets/bulksales/bulk1.png";
+import bulk2 from "../assets/bulksales/bulk2.png";
+import bulk3 from "../assets/bulksales/bulk3.png";
 
 export function BulkSales() {
   return (
