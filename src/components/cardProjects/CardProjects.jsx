@@ -4,6 +4,9 @@ import "../cardProjects/style.css";
 
 export function CardProject(props) {
   const [isHovered, setIsHovered] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div
       className={`contSlice ${isHovered ? "hovered" : ""}`}
@@ -18,7 +21,9 @@ export function CardProject(props) {
           </a>
         ) : (
           <NavLink to={props.projectRoute}>
-            <button className="but">visitar</button>
+            <button className="but" onClick={scrollToTop}>
+              visitar
+            </button>
           </NavLink>
         )}
       </div>
