@@ -12,7 +12,7 @@ export function Asistance() {
         description={
           "Asistencia un software desarrollado con el objetivo de llevar la asistencia y el pago de nomina de la empresa prc333, cuenta con caracterizticas como ingreso y egreso de personal en archivos masivos, entre muchas mas funciones internos que hacen eficientemente un trabajo que es delicado para la empresa."
         }
-        src0={asis3}
+        src0={asis0}
         alt0={"asistance"}
         src1={asis2}
         alt1={"asistance"}
