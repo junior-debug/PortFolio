@@ -2,13 +2,13 @@ import React from "react";
 import git from "../../assets/github.png";
 import instagram from "../../assets/instagram.png";
 import linkedin from "../../assets/linkedin.png";
-import php from "../../assets/php.png";
-import angular from "../../assets/angular.png";
-import javascript from "../../assets/javascript.png";
-import reactIcon from "../../assets/react.png";
-import vue from "../../assets/vuejs.png";
-import node from "../../assets/node.png";
-import express from "../../assets/express.png";
+import php from "../../assets/technologies/php.svg";
+import angular from "../../assets/technologies/angular.svg";
+import javascript from "../../assets/technologies/javascript.svg";
+import reactIcon from "../../assets/technologies/react.svg";
+import vue from "../../assets/technologies/vuejs.svg";
+import node from "../../assets/technologies/node.png";
+import express from "../../assets/technologies/express.png";
 import { IconCard } from "../iconsTec/iconCard";
 import { Carrousel } from "../carrousel/Carrousel";
 import "./style.css";
@@ -19,6 +19,30 @@ export function ManualParallax() {
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+  const phpWidth = {
+    width: "100px",
+  };
+
+  const angularWidth = {
+    width: "90px",
+  };
+
+  const javascriptWidth = {
+    width: "72px",
+  };
+
+  const reactWidth = {
+    width: "85px",
+  };
+
+  const vueWidth = {
+    width: "75px",
+  };
+
+  const expressWidth = {
+    width: "100px",
   };
   return (
     <>
@@ -59,19 +83,40 @@ export function ManualParallax() {
 
       <div id="seccionDestino" className="section">
         <div className="contTec">
-          <h1 className="titleTec">Tecnologias y Proyectos</h1>
+          <h1 className="titleTec">Tecnologias</h1>
+        </div>
+        <div className="contTec">
+          <h1 className="titleTec second">Proyectos</h1>
         </div>
         <div className="iconsTec">
-          <IconCard src={php} alt={"phpIcon"}></IconCard>
-          <IconCard src={angular} alt={"angularIcon"}></IconCard>
-          <IconCard src={javascript} alt={"javascriptIcon"}></IconCard>
-          <IconCard src={reactIcon} alt={"reactIcon"}></IconCard>
-          <IconCard src={vue} alt={"vueIcon"}></IconCard>
+          <IconCard src={php} alt={"phpIcon"} width={phpWidth}></IconCard>
+          <IconCard
+            src={angular}
+            alt={"angularIcon"}
+            width={angularWidth}
+          ></IconCard>
+          <IconCard
+            src={javascript}
+            alt={"javascriptIcon"}
+            width={javascriptWidth}
+          ></IconCard>
+          <IconCard
+            src={reactIcon}
+            alt={"reactIcon"}
+            width={reactWidth}
+          ></IconCard>
+          <IconCard src={vue} alt={"vueIcon"} width={vueWidth}></IconCard>
           <IconCard src={node} alt={"nodeIcon"}></IconCard>
-          <IconCard src={express} alt={"expressIcon"}></IconCard>
+          <IconCard
+            src={express}
+            alt={"expressIcon"}
+            width={expressWidth}
+          ></IconCard>
         </div>
         <div className="carrousel">
-          <Carrousel></Carrousel>
+          <div className="positionC">
+            <Carrousel></Carrousel>
+          </div>
         </div>
       </div>
     </>
