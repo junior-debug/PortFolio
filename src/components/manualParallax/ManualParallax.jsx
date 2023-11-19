@@ -62,12 +62,12 @@ export function ManualParallax() {
           <div className="headerCont">
             <div className="content">
               <div className="name">
-                <h1>Hola</h1>
+                <h1 className="unicStyle">Hola</h1>
                 <h1 className="unicStyle">,</h1>
                 <h1 className="unicStyle">soy</h1>
               </div>
               <div className="name">
-                <h1>Junior Martinez</h1>
+                <h1 className="unicStyle">Junior Martinez</h1>
               </div>
               <div className="bar"></div>
               <p className="paragraphe">Desarrollador Web</p>
