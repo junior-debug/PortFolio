@@ -168,14 +168,11 @@ h1 {
   width: 100%;
   height: 100vh;
   background-color: #d9d9d9;
-  background-image: url("../../assets/vector.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .iconsTec {
-  width: 50%;
-  height: 20%;
+  width: 100%;
+  height: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -206,15 +203,19 @@ h1 {
 
 .carrousel {
   width: 100%;
-  height: 60%;
+  height: 50%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  background-color: white;
+  /* background-image: url("../../assets/vector.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center bottom;*/
 }
 
 .positionC {
   width: 95%;
-  height: 70%;
 }
 
 .imgMockup {
@@ -223,36 +224,15 @@ h1 {
 }
 
 @media screen and (max-width: 1800px) {
-  .iconsTec {
-    width: 54%;
-  }
 }
 
 @media screen and (max-width: 1650px) {
-  .iconsTec {
-    width: 58%;
-  }
-  .positionC {
-    margin-bottom: -15px;
-  }
 }
 
 @media screen and (max-width: 1550px) {
-  .iconsTec {
-    width: 62%;
-  }
-  .positionC {
-    margin-bottom: -35px;
-  }
 }
 
 @media screen and (max-width: 1450px) {
-  .iconsTec {
-    width: 65%;
-  }
-  .positionC {
-    margin-bottom: -50px;
-  }
 }
 
 @media screen and (max-width: 1420px) {
@@ -265,22 +245,10 @@ h1 {
   .bar {
     margin-top: 7px;
   }
-  .iconsTec {
-    width: 64%;
-  }
-  .positionC {
-    margin-bottom: -60px;
-  }
 }
 
 @media screen and (max-width: 1350px) {
-  .iconsTec {
-    width: 70%;
-  }
 }
 
 @media screen and (max-width: 1300px) {
-  .iconsTec {
-    width: 72%;
-  }
 }
